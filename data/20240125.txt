@@ -1,0 +1,51 @@
+01/25
+T = 285C
+P = 1 Torr
+panels 2&4 lines T = 60C
+panel 3 lines T = 60C
+Flows on at 12:00
+TMA, H2O, TBUOH on ice
+______________________________
+NEW Au 285C crystal 
+
+loaded 01/24/2024
+____________________________
+new Co wafer loaded 01/24
+_____________________________
+Run 1 
+15 cycles TMA|TbuOH
+TMA|Purge|tbuoh|purge
+2|28|0.5|179.5
+
+STM log period 00:00
+cycle time on at STM time 1:30
+pressure recorded
+
+TMA/tbuoh on ice; flow through/over
+
+
+10 sccm panel 1
+10 sccm over panel 2
+50 sccm through panel 3
+50 sccm BSP
+10 sccm Ar through plasma
+20 sccm total 3%H2 through deadzones
+_____________________________
+Run 2 
+15 cycles TMA|h2o
+TMA|Purge|h2o|purge
+2|28|0.5|179.5
+
+STM log period 00:00
+cycle time on at STM time 1:30
+pressure recorded
+
+TMA/H2O on ice; flow through/over
+
+
+10 sccm panel 1
+10 sccm over panel 2
+50 sccm through panel 3
+50 sccm BSP
+10 sccm Ar through plasma
+20 sccm total 3%H2 through deadzones
