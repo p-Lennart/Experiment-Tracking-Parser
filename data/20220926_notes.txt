@@ -1,0 +1,70 @@
+ T = 285C
+panels 2&4 lines T = 110C
+Pressure = 1Torr
+panel 3 lines T = 80 C
+Water 0C at 12:51
+TMA 0C at 12:51
+ZyALD 90 C at 9:40
+Flows on at 9:25
+______________________________
+New, Au-285 crystal
+loaded 20220925
+______________________________
+New SiO2 native oxide wafer coupon
+loaded 20220925
+______________________________
+run1  
+Pressure = 1 Torr
+Furnace temperature at 285
+8 cycles tma and H2O ALD
+tma|Purge|h2o|Purge
+3|27|0.5|29.5
+
+STM log period 00:00
+cycle time on at STM time 2:00
+pressure recorded
+
+10 sccm through panel A
+10 sccm through panel B
+50 sccm through panel C
+50 sccm BSP
+10 sccm Ar through plasma
+20 sccm total 3%H2 through deadzones
+______________________________
+run2  
+Pressure = 1 Torr
+Furnace temperature at 285
+25 cycles tma and H2O ALD
+tma|Purge|h2o|Purge
+3|27|0.5|29.5
+
+STM log period 00:00
+cycle time on at STM time 2:00
+pressure recorded
+
+10 sccm through panel A
+10 sccm through panel B
+50 sccm through panel C
+50 sccm BSP
+10 sccm Ar through plasma
+20 sccm total 3%H2 through deadzones
+______________________________
+run3
+Pressure = 1 Torr
+Furnace temperature at 285
+IPA on ice. 10 sccm flow through
+10 cycles zygi and IPA ALD
+zygi|Purge|IPA|Purge
+20|40|10|350
+
+STM log period 00:00
+cycle time on at STM time 2:00
+pressure recorded
+
+10 sccm through panel A
+10 sccm through panel B
+50 sccm through panel C
+50 sccm BSP
+10 sccm Ar through plasma
+20 sccm total 3%H2 through deadzones
+______________________________
